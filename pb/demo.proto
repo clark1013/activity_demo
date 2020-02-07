@@ -1,0 +1,56 @@
+syntax = "proto3";
+package demo;
+
+service Activity {
+    rpc CreateCoupon(CreateCouponReq) returns (CreateCouponResp){}  // 创建优惠券
+    rpc SendCoupon(SendCouponReq) returns (SendCouponResp){}  // 赠送优惠券
+    rpc UseCoupon(UseCouponReq) returns (UseCouponResp){}  // 使用优惠券
+    // rpc CreateAward(CreateAwardReq) returns (CreateAwardResp){}  // 创建赠送
+    // rpc EnjoyAward(EnjoyAwardReq) returns (EnjoyAwardResp){}  // 享受赠送
+}
+
+// 请求上下文
+message RequestCtx {
+    string business = 1;  // 业务来源
+    int32 shop_id = 2;  // 发起店铺id
+    int32 passport_id = 3;  // 发起用户passport_id
+}
+// 错误消息
+message Error {
+    int32 code = 1;  // 错误码, 0没有错误
+    string message = 2;  // 错误消息
+}
+
+// 创建优惠券请求
+message CreateCouponReq {
+    RequestCtx ctx = 1;
+    int32 amount = 2;  // 优惠金额
+}
+// 创建优惠券响应
+message CreateCouponResp {
+    Error err = 1;
+    string coupon_num = 2;  // 优惠券码
+}
+
+// 赠送优惠券请求
+message SendCouponReq {
+    RequestCtx ctx = 1;
+    string coupon_num = 2;  // 优惠券码
+    int32 receiver_passport_id = 3;  // 接收人
+}
+// 赠送优惠券请求
+message SendCouponResp {
+    Error err = 1;
+}
+
+// 使用优惠券请求
+message UseCouponReq {
+    RequestCtx ctx = 1;
+    string coupon_num = 2;  // 优惠券码
+    int32 order_amount = 3;  // 订单金额
+}
+// 使用优惠券响应
+message UseCouponResp {
+    Error err = 1;
+    int32 discount_amount = 2;  // 折扣金额
+}
