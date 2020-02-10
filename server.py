@@ -8,26 +8,36 @@ from sqlalchemy.orm import sessionmaker
 from coupon.business import create_coupon
 
 _ONE_DAY_IN_SECONDS = 60 * 60 * 24
-_HOST = 'localhost'
-_PORT = '8080'
-
-# conn = pymysql.connect(host="localhost", port=3308, user="local", password="senguo_mysql", database="pfdb", charset="utf8mb4")
-engine = create_engine(
+_HOST = "localhost"
+_PORT = "8080"
+# PF数据库
+pf_engine = create_engine(
     "mysql+mysqlconnector://local:senguo_mysql@localhost:3308/pfdb?charset=utf8",
-    pool_size    = 20,
-    max_overflow = 100,
-    pool_recycle = 7200,
-    echo         = False  # 调试模式，开启后可输出所有查询语句
+    pool_size=20,
+    max_overflow=100,
+    pool_recycle=7200,
+    echo=False,  # 调试模式，开启后可输出所有查询语句
 )
-# MapBase = declarative_base(bind=engine)
-DBSession = sessionmaker(bind=engine)
+PF_Session = sessionmaker(bind=pf_engine)
+# LS数据库
+ls_engine = create_engine(
+    "mysql+mysqlconnector://local:senguo_mysql@localhost:3308/lsdb?charset=utf8",
+    pool_size=20,
+    max_overflow=100,
+    pool_recycle=7200,
+    echo=False,  # 调试模式，开启后可输出所有查询语句
+)
+LS_Session = sessionmaker(bind=ls_engine)
+# 连接池映射
+MAP_BUSINESS_SESSION = {
+    "pf": PF_Session,
+    "ls": LS_Session,
+}
 
 
 class ActivityService(demo_pb2_grpc.ActivityServicer):
-
     def CreateCoupon(self, request, context):
-        # print(request.ctx.business)
-        session = DBSession()
+        session = MAP_BUSINESS_SESSION[request.ctx.business]()
         num = create_coupon(session, request.ctx.shop_id, request.amount)
         session.close()
         return demo_pb2.CreateCouponResp(coupon_num=num)
@@ -38,10 +48,11 @@ class ActivityService(demo_pb2_grpc.ActivityServicer):
     def UseCoupon(self, request, context):
         pass
 
+
 def serve():
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
     demo_pb2_grpc.add_ActivityServicer_to_server(ActivityService(), server)
-    server.add_insecure_port(_HOST + ':' + _PORT)
+    server.add_insecure_port(_HOST + ":" + _PORT)
     server.start()
     try:
         while True:
@@ -49,5 +60,6 @@ def serve():
     except KeyboardInterrupt:
         server.stop(0)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     serve()
