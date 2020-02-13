@@ -2,6 +2,7 @@
 import copy
 from collections import defaultdict
 from prettytable import PrettyTable
+from types import FunctionType
 
 
 def demo():
@@ -16,6 +17,39 @@ def demo():
     x.add_row(["8月28日", "10*119元=1190元", "", "5*106元+20*115元+10*119元=4020元"])
     x.add_row(["8月31日", "", "5*106元+18*115元=2600元", "2*115元+10*119元=1420元"])
     print(x)
+
+
+def build_segment_func(warehouse_produce_moves):
+    """ 构建成本分段函数 """
+    total_quantity = 0
+    total_amount = 0
+    f_str = "def foo(q):"
+    if not warehouse_produce_moves:
+        f_str += "\n\treturn 0"
+    for i, m in enumerate(warehouse_produce_moves):
+        if i == 0:
+            f_str += "\n\tif q <= {m_quantity}:\n\t\treturn q * ({m_amount} / {m_quantity})".format(
+                m_quantity=m.quantity, m_amount=m.amount,
+            )
+        elif 0 < i < len(warehouse_produce_moves) - 1:
+            f_str += "\n\telif {total_quantity} < q <= {total_quantity} + {m_quantity}:\n\t\treturn {total_amount} + (q - {total_quantity}) * ({m_amount} / {m_quantity})".format(
+                total_quantity=total_quantity,
+                total_amount=total_amount,
+                m_quantity=m.quantity,
+                m_amount=m.amount,
+            )
+        if i == len(warehouse_produce_moves) - 1:
+            f_str += "\n\telse:\n\t\treturn {total_amount} + (q - {total_quantity}) * ({m_amount} / {m_quantity})".format(
+                total_quantity=total_quantity,
+                total_amount=total_amount,
+                m_quantity=m.quantity,
+                m_amount=m.amount,
+            )
+        total_quantity += m.quantity
+        total_amount += m.amount
+    f_code = compile(f_str, "<string>", "exec")
+    f = FunctionType(f_code.co_consts[0], globals(), "foo")
+    return f
 
 
 class Warehouse:
@@ -62,6 +96,7 @@ class Warehouse:
 
 class SegmentFunction:
     """ 成本分段函数 """
+
     def __init__(self):
         self._purchase_stock_moves = []
 
@@ -83,10 +118,26 @@ class SegmentFunction:
                 pt_quantity += p.quantity
         # 超卖部分按照最近一次采购计算
         recent_purchase = self._purchase_stock_moves[-1]
-        return pt_amount + (recent_purchase.amount / recent_purchase.quantity) * (quantity - pt_quantity)
+        return pt_amount + (recent_purchase.amount / recent_purchase.quantity) * (
+            quantity - pt_quantity
+        )
 
     def sale_cost(self, quantity):
         return -self.purchase_cost(quantity)
+
+
+class SegmentFunctionV2:
+    def __init__(self):
+        self.f = build_segment_func([])
+
+    def build(self, func):
+        self.f = func
+
+    def purchase_cost(self, quantity):
+        return self.f(quantity)
+
+    def sale_cost(self, quantity):
+        return -self.f(quantity)
 
 
 class WarehouseV2:
@@ -95,7 +146,7 @@ class WarehouseV2:
     def __init__(self):
         self.stock_moves = []  # 仓库发生的库存变动
         self.purchase_stock_moves = []
-        self.segf = SegmentFunction()
+        self.segf = SegmentFunctionV2()
         self.purchase_quantity = 0
         self.purchase_amount = 0
         self.sale_quantity = 0
@@ -121,14 +172,16 @@ class WarehouseV2:
         self.purchase_quantity += stock_move.quantity
         self.purchase_amount += stock_move.amount
         self.purchase_stock_moves.append(stock_move)
-        self.segf.build(self.purchase_stock_moves)
+        func = build_segment_func(self.purchase_stock_moves)
+        self.segf.build(func)
         if should_recal:
             self.recalculate()
 
-
     def sale_out(self, stock_move):
         """ 销售出库 """
-        stock_move.amount = self.segf.sale_cost(self.sale_quantity - stock_move.quantity) - self.segf.sale_cost(self.sale_quantity)
+        stock_move.amount = self.segf.sale_cost(
+            self.sale_quantity - stock_move.quantity
+        ) - self.segf.sale_cost(self.sale_quantity)
         self.sale_quantity -= stock_move.quantity
         self.sale_amount += stock_move.amount
         self.stock_moves.append(stock_move)
@@ -139,7 +192,9 @@ class WarehouseV2:
         for s in self.stock_moves:
             if s.move_type != "SALE":
                 continue
-            s.amount = self.segf.sale_cost(self.sale_quantity - s.quantity) - self.segf.sale_cost(self.sale_quantity)
+            s.amount = self.segf.sale_cost(
+                self.sale_quantity - s.quantity
+            ) - self.segf.sale_cost(self.sale_quantity)
             self.sale_quantity -= s.quantity
             self.sale_amount += s.amount
 
