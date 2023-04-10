@@ -52,5 +52,3 @@ print("LS CALL RESULT, coupon_num:", response.coupon_num)
 # 后续
 - 业务抽象，建立真实模型，应用于具体的业务线
 - 微服务相关：服务发现、监控、降级、限流、负载均衡等
-
-# Test github webhook
