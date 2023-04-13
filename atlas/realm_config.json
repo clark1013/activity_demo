@@ -1,9 +1,0 @@
-{
-    "app_id": "application-0-vsqri",
-    "config_version": 20210101,
-    "name": "Application-0",
-    "location": "SG",
-    "provider_region": "aws-ap-southeast-1",
-    "deployment_model": "LOCAL",
-    "environment": "development"
-}
