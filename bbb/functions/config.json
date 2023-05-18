@@ -1,11 +1,11 @@
 [
     {
-        "name": "t",
+        "name": "f",
         "private": false,
         "disable_arg_logs": true
     },
     {
-        "name": "f",
+        "name": "t",
         "private": false,
         "disable_arg_logs": true
     }
