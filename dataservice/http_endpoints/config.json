@@ -12,7 +12,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-testapi2.sql",
+    "sql_file": "sql/GET-testapi.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
