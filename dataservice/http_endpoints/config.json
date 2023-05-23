@@ -1,9 +1,9 @@
 [
   {
-    "name": "/testapi",
+    "name": "/testapi2",
     "description": "",
     "method": "GET",
-    "endpoint": "/testapi",
+    "endpoint": "/testapi2",
     "data_source": {
       "cluster_id": 3268946
     },
@@ -12,15 +12,15 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-testapi.sql",
+    "sql_file": "sql/GET-testapi2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
   {
-    "name": "/testapi2",
+    "name": "/testapi",
     "description": "",
     "method": "GET",
-    "endpoint": "/testapi2",
+    "endpoint": "/testapi",
     "data_source": {
       "cluster_id": 3268946
     },
