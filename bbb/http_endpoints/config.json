@@ -1,9 +1,9 @@
 [
   {
-    "name": "/pppSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithub",
+    "name": "/abc",
     "description": "Test%20POST",
     "method": "POST",
-    "endpoint": "/pppSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithub",
+    "endpoint": "/abc",
     "data_source": {
       "cluster_id": 3268946
     },
