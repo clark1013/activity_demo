@@ -1,9 +1,9 @@
 [
   {
-    "name": "/testapi3",
+    "name": "/    testapi3",
     "description": "",
     "method": "GET",
-    "endpoint": "/testapi3",
+    "endpoint": "/    testapi3",
     "data_source": {
       "cluster_id": 3268946
     },
@@ -79,10 +79,10 @@
     "return_type": "json"
   },
   {
-    "name": "/testapi3",
+    "name": "/testapi4",
     "description": "",
     "method": "GET",
-    "endpoint": "/testapi3",
+    "endpoint": "/testapi4",
     "data_source": {
       "cluster_id": 3268946
     },
