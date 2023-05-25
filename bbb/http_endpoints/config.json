@@ -28,34 +28,6 @@
     "return_type": "json"
   },
   {
-    "name": "/pppSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapsho",
-    "description": "Test%20POST",
-    "method": "POST",
-    "endpoint": "/pppSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithub",
-    "data_source": {
-      "cluster_id": 3268946
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "value_type": "",
-        "value_map": null,
-        "required": 0,
-        "default": "0",
-        "description": "",
-        "pattern": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/POST-pppSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithub.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "哈哈哈",
     "description": "",
     "method": "GET",
