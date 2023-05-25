@@ -1,41 +1,7 @@
 [
   {
-    "name": "untitled endpoint",
+    "name": "",
     "description": "",
-    "method": "GET",
-    "endpoint": "/test",
-    "data_source": {
-      "cluster_id": 3268946
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-test.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/testapi3",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/testapi3",
-    "data_source": {
-      "cluster_id": 3268946
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-testapi3.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/ppp",
-    "description": "Test%20POST",
     "method": "POST",
     "endpoint": "/ppp",
     "data_source": {
@@ -62,7 +28,41 @@
     "return_type": "json"
   },
   {
-    "name": "/testapi2",
+    "name": "哈哈哈",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testjj",
+    "data_source": {
+      "cluster_id": 3268946
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-testjj.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testapi",
+    "data_source": {
+      "cluster_id": 3268946
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-testapi.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "",
     "description": "",
     "method": "GET",
     "endpoint": "/testapi2",
@@ -79,10 +79,10 @@
     "return_type": "json"
   },
   {
-    "name": "/testapi",
+    "name": "",
     "description": "",
     "method": "GET",
-    "endpoint": "/testapi",
+    "endpoint": "/testapi3",
     "data_source": {
       "cluster_id": 3268946
     },
@@ -91,7 +91,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-testapi.sql",
+    "sql_file": "sql/GET-testapi3.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
