@@ -28,23 +28,6 @@
     "return_type": "json"
   },
   {
-    "name": "哈哈哈",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/testjj",
-    "data_source": {
-      "cluster_id": 3268946
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-testjj.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "/testapi3",
     "description": "",
     "method": "GET",
