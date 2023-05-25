@@ -1,9 +1,9 @@
 [
   {
-    "name": "/abc",
+    "name": "/abcd",
     "description": "Test%20POST",
     "method": "POST",
-    "endpoint": "/abc",
+    "endpoint": "/abcd",
     "data_source": {
       "cluster_id": 3268946
     },
