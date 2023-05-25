@@ -3,7 +3,7 @@
     "name": "/pppSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithub",
     "description": "Test%20POST",
     "method": "POST",
-    "endpoint": "/ppp",
+    "endpoint": "/pppSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithubSyncSnapshotToGithub",
     "data_source": {
       "cluster_id": 3268946
     },
