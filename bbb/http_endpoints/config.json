@@ -1,7 +1,7 @@
 [
   {
-    "name": "",
-    "description": "",
+    "name": "/ppp",
+    "description": "Test%20POST",
     "method": "POST",
     "endpoint": "/ppp",
     "data_source": {
@@ -28,7 +28,7 @@
     "return_type": "json"
   },
   {
-    "name": "",
+    "name": "/testapi",
     "description": "",
     "method": "GET",
     "endpoint": "/testapi",
@@ -45,7 +45,7 @@
     "return_type": "json"
   },
   {
-    "name": "",
+    "name": "/testapi2",
     "description": "",
     "method": "GET",
     "endpoint": "/testapi2",
@@ -62,7 +62,7 @@
     "return_type": "json"
   },
   {
-    "name": "",
+    "name": "/testapi3",
     "description": "",
     "method": "GET",
     "endpoint": "/testapi3",
