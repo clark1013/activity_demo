@@ -79,10 +79,10 @@
     "return_type": "json"
   },
   {
-    "name": "/testapi",
+    "name": "/testapi3",
     "description": "",
     "method": "GET",
-    "endpoint": "/testapi",
+    "endpoint": "/testapi3",
     "data_source": {
       "cluster_id": 3268946
     },
