@@ -123,4 +123,5 @@
     "type": "sql_endpoint",
     "return_type": "json"
   }
+
 ]
