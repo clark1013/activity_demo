@@ -10,7 +10,7 @@
     "params": [],
     "settings": {
       "timeout": 30000,
-      "row_limit": 2
+      "row_limit": 3
     },
     "sql_file": "sql/POST-a1.sql",
     "type": "sql_endpoint",
