@@ -5,7 +5,7 @@
     "method": "GET",
     "endpoint": "/testapi88",
     "data_source": {
-      "cluster_id": 1
+      "cluster_id": 2
     },
     "params": [],
     "settings": {
