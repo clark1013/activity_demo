@@ -126,14 +126,14 @@
   {
     "name": "/testapi77",
     "description": "",
-    "method": "get",
+    "method": "GET",
     "endpoint": "/testapi88",
     "data_source": {
       "cluster_id": 3268946
     },
     "params": [],
     "settings": {
-      "timeout": 30001,
+      "timeout": 60000,
       "row_limit": 50
     },
     "sql_file": "sql/GET-testapi88.sql",
