@@ -9,7 +9,7 @@
     },
     "params": [],
     "settings": {
-      "timeout": 30000,
+      "timeout": 60000,
       "row_limit": 2
     },
     "sql_file": "sql/GET-a1.sql",
