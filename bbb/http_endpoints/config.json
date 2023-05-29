@@ -99,7 +99,7 @@
     },
     "params": [],
     "settings": {
-      "timeout": 60000,
+      "timeout": 70000,
       "row_limit": 50
     },
     "sql_file": "sql/GET-testapi.sql",
