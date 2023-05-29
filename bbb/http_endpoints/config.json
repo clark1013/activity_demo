@@ -150,7 +150,7 @@
     },
     "params": [],
     "settings": {
-      "timeout": 5000,
+      "timeout": 31000,
       "row_limit": 50
     },
     "sql_file": "sql/GET-testapi3.sql",
