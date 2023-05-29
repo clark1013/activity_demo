@@ -1,6 +1,6 @@
 [
   {
-    "name": "untitled endpoint",
+    "name": "/v1/data",
     "description": "",
     "method": "GET",
     "endpoint": "/v1/data",
