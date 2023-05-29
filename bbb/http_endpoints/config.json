@@ -13,7 +13,7 @@
       "row_limit": 3
     },
     "sql_file": "sql/POST-a1.sql",
-    "type": "sql_endpoint",
+    "type": "sql_endpoints",
     "return_type": "json"
   },
   {
