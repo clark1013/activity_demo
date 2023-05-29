@@ -1,9 +1,9 @@
 [
   {
-    "name": "/a1",
+    "name": "/a2",
     "description": "jkfjakdjk98392",
     "method": "POST",
-    "endpoint": "/a1",
+    "endpoint": "/a2",
     "data_source": {
       "cluster_id": 3268946
     },
