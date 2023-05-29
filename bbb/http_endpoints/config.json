@@ -14,7 +14,7 @@
     },
     "sql_file": "sql/POST-a1.sql",
     "type": "sql_endpoint",
-    "return_type": "json"
+    "return_type": "yaml"
   },
   {
     "name": "/testapi77",
