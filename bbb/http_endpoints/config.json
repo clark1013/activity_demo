@@ -3,7 +3,7 @@
     "name": "/testapi77",
     "description": "",
     "method": "GET",
-    "endpoint": "/testapi88/",
+    "endpoint": "/testapi88",
     "data_source": {
       "cluster_id": 3268946
     },
