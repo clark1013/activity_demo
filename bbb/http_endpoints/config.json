@@ -9,10 +9,10 @@
     },
     "params": [],
     "settings": {
-      "timeout": 60000,
+      "timeout": 30000,
       "row_limit": 2
     },
-    "sql_file": "sql/GET-a1.sql",
+    "sql_file": "sql/POST-a1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
