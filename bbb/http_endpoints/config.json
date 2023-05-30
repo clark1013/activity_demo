@@ -5,7 +5,7 @@
     "method": "GET",
     "endpoint": "/testapi3/fad",
     "data_source": {
-      "cluster_id": 3268946
+      "cluster_id": 3058966
     },
     "params": [],
     "settings": {
