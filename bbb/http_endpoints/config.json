@@ -63,33 +63,27 @@
   },
   {
     "name": "/testapi",
-    "description": "",
+    "description": "Test%20POST",
     "method": "GET",
     "endpoint": "/testapi",
     "data_source": {
       "cluster_id": 3268946
     },
-    "params": [],
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "value_type": "",
+        "value_map": null,
+        "required": 0,
+        "default": "0",
+        "description": "",
+        "pattern": ""
+      }
+    ],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
-    },
-    "sql_file": "sql/GET-testapi.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/t1",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/t1",
-    "data_source": {
-      "cluster_id": 3268946
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 10
     },
     "sql_file": "sql/GET-testapi.sql",
     "type": "sql_endpoint",
