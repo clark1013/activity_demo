@@ -38,7 +38,7 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 60
     },
     "sql_file": "sql/GET-testapi3.sql",
     "type": "sql_endpoint",
