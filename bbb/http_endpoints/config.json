@@ -89,7 +89,7 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 10
     },
     "sql_file": "sql/GET-testapi.sql",
     "type": "sql_endpoint",
