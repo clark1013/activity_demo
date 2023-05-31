@@ -12,41 +12,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-testapi3-fad.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/testapi3",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/testapi3/fad",
-    "data_source": {
-      "cluster_id": 3268946
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-testapi3-fad.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/testapi2",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/testapi2",
-    "data_source": {
-      "cluster_id": 3268946
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-testapi2.sql",
+    "sql_file": "sql/GET-d.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -71,6 +37,40 @@
       "row_limit": 50
     },
     "sql_file": "sql/GET-testapi.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/testapi2",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testapi2",
+    "data_source": {
+      "cluster_id": 3268946
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-testapi2.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/testapi3",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testapi3/fad",
+    "data_source": {
+      "cluster_id": 3268946
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-testapi3-fad.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
