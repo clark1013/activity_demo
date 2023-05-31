@@ -56,5 +56,22 @@
     "sql_file": "sql/GET-testapi3-fad.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/t1",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/d",
+    "data_source": {
+      "cluster_id": 3029027
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-d.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
