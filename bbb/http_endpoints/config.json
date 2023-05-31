@@ -1,25 +1,35 @@
 [
   {
-    "name": "/testapi",
-    "description": "Test%20POST",
+    "name": "/t1",
+    "description": "",
     "method": "GET",
-    "endpoint": "/testapi",
+    "endpoint": "/d",
     "data_source": {
-      "cluster_id": 3118970
+      "cluster_id": 3029027
     },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 0,
-        "default": "0"
-      }
-    ],
+    "params": [],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-testapi.sql",
+    "sql_file": "sql/GET-d.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/testapi3",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testapi3/fad",
+    "data_source": {
+      "cluster_id": 3268946
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-testapi3-fad.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -41,19 +51,26 @@
     "return_type": "json"
   },
   {
-    "name": "/testapi3",
-    "description": "",
+    "name": "/testapi",
+    "description": "Test%20POST",
     "method": "GET",
-    "endpoint": "/testapi3/fad",
+    "endpoint": "/testapi",
     "data_source": {
-      "cluster_id": 3268946
+      "cluster_id": 3118970
     },
-    "params": [],
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 0,
+        "default": "0"
+      }
+    ],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-testapi3-fad.sql",
+    "sql_file": "sql/GET-testapi.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
