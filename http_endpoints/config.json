@@ -27,7 +27,7 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 20
     },
     "sql_file": "sql/GET-v1-data.sql",
     "type": "sql_endpoint",
