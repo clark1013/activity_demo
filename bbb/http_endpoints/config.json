@@ -1,8 +1,8 @@
 [
   {
-    "name": "/abc-----",
+    "name": "/abc",
     "description": "jf 1, jfdkj,abc def erf jkdjfkd8 0.",
-    "method": "GET",
+    "method": "POST",
     "endpoint": "/v2/data",
     "data_source": {
       "cluster_id": 3329005
