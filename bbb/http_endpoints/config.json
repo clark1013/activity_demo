@@ -1,7 +1,7 @@
 [
   {
-    "name": "/-[你好]————",
-    "description": "abc%20def%20erf",
+    "name": "/abc",
+    "description": "abc def erf",
     "method": "GET",
     "endpoint": "/v2/data",
     "data_source": {
