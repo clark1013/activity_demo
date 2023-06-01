@@ -18,7 +18,7 @@
   },
   {
     "name": "v2 data",
-    "description": "abc def",
+    "description": "abc%20def%20erf",
     "method": "GET",
     "endpoint": "/v2/data",
     "data_source": {
