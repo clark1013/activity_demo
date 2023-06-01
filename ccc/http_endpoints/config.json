@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "name": "ffff",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/fffff",
+    "data_source": {
+      "cluster_id": 3329005
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-fffff.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
