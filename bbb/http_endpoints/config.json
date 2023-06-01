@@ -1,5 +1,22 @@
 [
   {
+    "name": "/-[你好]————",
+    "description": "abc%20def%20erf",
+    "method": "GET",
+    "endpoint": "/v2/data",
+    "data_source": {
+      "cluster_id": 3329005
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 20
+    },
+    "sql_file": "sql/GET-v2-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/v1/data",
     "description": "",
     "method": "GET",
@@ -13,23 +30,6 @@
       "row_limit": 40
     },
     "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "v2 data",
-    "description": "abc%20def%20erf",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 3329005
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "sql_file": "sql/GET-v2-data.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
