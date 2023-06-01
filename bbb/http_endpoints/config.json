@@ -1,7 +1,7 @@
 [
   {
     "name": "/abc-----",
-    "description": "jf , jfdkj,abc def erf jkdjfkd8  0.",
+    "description": "jf, jfdkj,abc def erf jkdjfkd8 0.",
     "method": "GET",
     "endpoint": "/v2/data",
     "data_source": {
