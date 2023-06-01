@@ -18,7 +18,7 @@
   },
   {
     "name": "v2 data",
-    "description": "abc%20def",
+    "description": "abc def",
     "method": "GET",
     "endpoint": "/v2/data",
     "data_source": {
