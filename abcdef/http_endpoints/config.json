@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "name": "bababa",
+    "description": "jkdjkfd jkfdjfkd ****",
+    "method": "POST",
+    "endpoint": "/v1/data",
+    "data_source": {
+      "cluster_id": 3448938
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/POST-v1-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "bababa",
+    "description": "jkdjkfd jkfdjfkd ****",
+    "method": "GET",
+    "endpoint": "/v1/data",
+    "data_source": {
+      "cluster_id": 3448938
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-v1-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
