@@ -1,13 +1,13 @@
 [
   {
-    "name": "bababa",
-    "description": "jkdjkfd jkfdjfkd ****",
-    "method": "POST",
     "endpoint": "/v1/data",
     "data_source": {
       "cluster_id": 3448938
     },
     "params": [],
+    "name": "bababa",
+    "description": "jkdjkfd jkfdjfkd ****",
+    "method": "POST",
     "settings": {
       "timeout": 5000,
       "row_limit": 50
