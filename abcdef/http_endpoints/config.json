@@ -1,7 +1,7 @@
 [
   {
     "name": "untitled endpoint",
-    "description": "",
+    "description": "abc def",
     "method": "GET",
     "endpoint": "/file1",
     "data_source": {
