@@ -1,7 +1,7 @@
 [
   {
     "name": "untitled endpoint",
-    "description": "jfdkjk jkdjfkd",
+    "description": "",
     "method": "GET",
     "endpoint": "/file1",
     "data_source": {
@@ -22,7 +22,7 @@
     "method": "GET",
     "endpoint": "/test",
     "data_source": {
-      "cluster_id": 1379661944644424073
+      "cluster_id": 1379661944646194202
     },
     "params": [],
     "settings": {
