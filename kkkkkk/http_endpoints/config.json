@@ -12,8 +12,6 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "tag": "",
-    "batch": false,
     "sql_file": "sql/GET-testf.sql",
     "type": "sql_endpoint",
     "return_type": "json"
