@@ -1,0 +1,21 @@
+[
+  {
+    "name": "/test",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testf",
+    "data_source": {
+      "cluster_id": 3778994
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-testf.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
