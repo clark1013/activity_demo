@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "name": "/f",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/f",
+    "data_source": {
+      "cluster_id": 1379661944646195308
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-f.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/p",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/p",
+    "data_source": {
+      "cluster_id": 1379661944646195308
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-p.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
