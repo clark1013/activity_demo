@@ -12,7 +12,7 @@
         "name": "id",
         "type": "number",
         "required": 1,
-        "default": ""
+        "default": "1"
       }
     ],
     "settings": {
@@ -163,12 +163,6 @@
     },
     "params": [
       {
-        "name": "id",
-        "type": "string",
-        "required": 1,
-        "default": ""
-      },
-      {
         "name": "name",
         "type": "string",
         "required": 1,
@@ -176,6 +170,12 @@
       },
       {
         "name": "url",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "id",
         "type": "string",
         "required": 1,
         "default": ""
