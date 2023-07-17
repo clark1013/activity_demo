@@ -1,9 +1,9 @@
 [
   {
-    "name": "/v1/data",
+    "name": "/github_events",
     "description": "",
     "method": "GET",
-    "endpoint": "/v1/data",
+    "endpoint": "/github_events",
     "data_source": {
       "cluster_id": 1373933076659920561
     },
@@ -12,7 +12,683 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-v1-data.sql",
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-github_events.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/github_events",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/github_events",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "created_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "repo_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "repo_name",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "actor_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "actor_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "additions",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "deletions",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "action",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "number",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "commit_id",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "comment_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "org_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "org_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "closed_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "comments",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_merged_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_merged",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_changed_files",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_review_comments",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_or_issue_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_day",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_month",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_year",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "push_size",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "push_distinct_size",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "creator_user_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "creator_user_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_or_issue_created_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/POST-github_events.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/github_events",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/github_events",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "created_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "repo_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "repo_name",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "actor_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "actor_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "additions",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "deletions",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "action",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "number",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "commit_id",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "comment_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "org_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "org_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "closed_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "comments",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_merged_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_merged",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_changed_files",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_review_comments",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_or_issue_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_day",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_month",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_year",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "push_size",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "push_distinct_size",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "creator_user_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "creator_user_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_or_issue_created_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/PUT-github_events.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/github_events",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/github_events",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/DELETE-github_events.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/github_eventss",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/github_eventss",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": true,
+    "sql_file": "sql/DELETE-github_eventss.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/github_eventss",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/github_eventss",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "created_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "repo_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "repo_name",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "actor_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "actor_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "language",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "additions",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "deletions",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "action",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "number",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "commit_id",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "comment_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "org_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "org_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "closed_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "comments",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_merged_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_merged",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_changed_files",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_review_comments",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_or_issue_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_day",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_month",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "event_year",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "push_size",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "push_distinct_size",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "creator_user_login",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "creator_user_id",
+        "type": "number",
+        "required": 1,
+        "default": ""
+      },
+      {
+        "name": "pr_or_issue_created_at",
+        "type": "string",
+        "required": 1,
+        "default": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": true,
+    "sql_file": "sql/PUT-github_eventss.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -29,6 +705,27 @@
       "timeout": 5000,
       "row_limit": 20
     },
+    "tag": "Default",
+    "batch": false,
+    "sql_file": "sql/GET-v2-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/v1/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v1/data",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch": false,
     "sql_file": "sql/GET-v1-data.sql",
     "type": "sql_endpoint",
     "return_type": "json"
