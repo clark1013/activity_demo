@@ -3,4 +3,4 @@ Enter "USE {database};" before entering your SQL statements.
 Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
-select name, url from test.repository union select id, name from test.repository;
+with t1 as (select * from test.repository) select * from t1 ;
