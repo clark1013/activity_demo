@@ -4,4 +4,4 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
 use test;
-desc test.repository;
+  describe test.repository;
