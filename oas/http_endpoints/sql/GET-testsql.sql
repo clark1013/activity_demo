@@ -3,4 +3,4 @@ Enter "USE {database};" before entering your SQL statements.
 Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
-select sum(id) from test.repository where name="tidb" group by id having sum(id)=1;
+select *, rank() over (order by name) as t from test.repository;
