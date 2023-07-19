@@ -4,4 +4,4 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
 use test;
-  show create table test.repository;
+show columns from test.repository;
