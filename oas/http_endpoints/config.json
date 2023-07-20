@@ -59,9 +59,9 @@
     "params": [
       {
         "name": "id",
-        "type": "string",
+        "type": "integer",
         "required": 0,
-        "default": "",
+        "default": "1",
         "description": ""
       }
     ],
