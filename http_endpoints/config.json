@@ -99,44 +99,6 @@
     "name": "",
     "description": "",
     "method": "PUT",
-    "endpoint": "/repository",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "string",
-        "required": 1,
-        "default": ""
-      },
-      {
-        "name": "name",
-        "type": "string",
-        "required": 1,
-        "default": ""
-      },
-      {
-        "name": "url",
-        "type": "string",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/PUT-repository.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "",
-    "description": "",
-    "method": "PUT",
     "endpoint": "/repositorys",
     "data_source": {
       "cluster_id": 1373933076659920561
