@@ -12,13 +12,15 @@
         "name": "name",
         "type": "string",
         "required": 0,
-        "default": ""
+        "default": "",
+        "description": ""
       },
       {
         "name": "url",
         "type": "string",
         "required": 0,
-        "default": ""
+        "default": "",
+        "description": ""
       }
     ],
     "settings": {
@@ -42,7 +44,8 @@
         "name": "id",
         "type": "number",
         "required": 0,
-        "default": "1"
+        "default": "1",
+        "description": ""
       }
     ],
     "settings": {
