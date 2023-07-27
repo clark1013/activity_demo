@@ -1,5 +1,24 @@
 [
   {
+    "name": "Test SQL",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testsql",
+    "data_source": {
+      "cluster_id": 3778994
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-testsql.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "Insert repo",
     "description": "",
     "method": "POST",
@@ -27,6 +46,8 @@
       "timeout": 5000,
       "row_limit": 50
     },
+    "tag": "Default",
+    "batch_operation": 0,
     "sql_file": "sql/POST-insertRepo.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -52,24 +73,9 @@
       "timeout": 30000,
       "row_limit": 50
     },
+    "tag": "Default",
+    "batch_operation": 0,
     "sql_file": "sql/GET-test.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "Test SQL",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/testsql",
-    "data_source": {
-      "cluster_id": 3778994
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-testsql.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
