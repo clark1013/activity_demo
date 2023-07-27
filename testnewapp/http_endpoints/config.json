@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "name": "/testnewapp",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/testnewapp",
+    "data_source": {
+      "cluster_id": 3778994
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "integer",
+        "required": 0,
+        "default": "1",
+        "description": "test integer"
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-testnewapp.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
