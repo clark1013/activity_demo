@@ -31,15 +31,13 @@
         "name": "name",
         "type": "string",
         "required": 0,
-        "default": "",
-        "description": ""
+        "default": ""
       },
       {
         "name": "url",
         "type": "string",
         "required": 0,
-        "default": "",
-        "description": ""
+        "default": ""
       }
     ],
     "settings": {
@@ -65,8 +63,7 @@
         "name": "id",
         "type": "number",
         "required": 0,
-        "default": "1",
-        "description": ""
+        "default": "1"
       }
     ],
     "settings": {
