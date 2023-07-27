@@ -4,4 +4,4 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
   describe test.repository;
-insert into test.repository (name, url) values ("ttt", "ttt");
+delete from test.repository where name="ttt";
