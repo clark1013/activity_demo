@@ -4,4 +4,4 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
 use test;
-select id, name from test.repository union select name, url from test.repository;
+with t1 as (select * from test.repository) select * from t1;
