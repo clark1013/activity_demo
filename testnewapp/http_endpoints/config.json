@@ -13,7 +13,7 @@
         "type": "integer",
         "required": 0,
         "default": "1",
-        "description": "test integer"
+        "description": "test integer dfdfd"
       }
     ],
     "settings": {
