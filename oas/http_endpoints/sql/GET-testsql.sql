@@ -5,3 +5,5 @@ Declare a parameter like "Where id = ${arg}".
 */
   describe test.repository;
 delete from test.repository where name="ttt";
+insert into test.repository (name, url) values ("ttt", "ttt");
+update test.repository set url ="bbb" where name = "ttt";
