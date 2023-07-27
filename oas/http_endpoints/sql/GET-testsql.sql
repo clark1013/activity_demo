@@ -4,4 +4,4 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
 use test;
-select name as n, url as u from test.repository
+select name n, url u from test.repository;
