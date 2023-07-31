@@ -1,25 +1,6 @@
 [
   {
-    "name": "/bbb",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/bbb",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-bbb.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v1/data",
+    "name": "",
     "description": "",
     "method": "GET",
     "endpoint": "/v1/data",
@@ -38,7 +19,7 @@
     "return_type": "json"
   },
   {
-    "name": "/v2/data",
+    "name": "",
     "description": "",
     "method": "GET",
     "endpoint": "/v2/data",
@@ -57,8 +38,8 @@
     "return_type": "json"
   },
   {
-    "name": "-repository",
-    "description": "1",
+    "name": "",
+    "description": "",
     "method": "GET",
     "endpoint": "/repository",
     "data_source": {
@@ -84,7 +65,7 @@
     "return_type": "json"
   },
   {
-    "name": "-repository",
+    "name": "",
     "description": "",
     "method": "DELETE",
     "endpoint": "/repository",
@@ -111,7 +92,7 @@
     "return_type": "json"
   },
   {
-    "name": "-repository",
+    "name": "",
     "description": "",
     "method": "PUT",
     "endpoint": "/repository",
@@ -152,7 +133,7 @@
     "return_type": "json"
   },
   {
-    "name": "-repositorys",
+    "name": "",
     "description": "",
     "method": "POST",
     "endpoint": "/repositorys",
@@ -186,7 +167,7 @@
     "return_type": "json"
   },
   {
-    "name": "-repositorys",
+    "name": "",
     "description": "",
     "method": "PUT",
     "endpoint": "/repositorys",
@@ -227,7 +208,7 @@
     "return_type": "json"
   },
   {
-    "name": "-repositorys",
+    "name": "",
     "description": "",
     "method": "DELETE",
     "endpoint": "/repositorys",
@@ -254,7 +235,7 @@
     "return_type": "json"
   },
   {
-    "name": "-repository",
+    "name": "",
     "description": "",
     "method": "POST",
     "endpoint": "/repository",
