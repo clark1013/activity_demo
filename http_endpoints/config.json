@@ -1,5 +1,24 @@
 [
   {
+    "name": "/bbb",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/bbb",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-bbb.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/v1/data",
     "description": "",
     "method": "GET",
@@ -39,7 +58,7 @@
   },
   {
     "name": "-repository",
-    "description": "",
+    "description": "1",
     "method": "GET",
     "endpoint": "/repository",
     "data_source": {
@@ -50,7 +69,8 @@
         "name": "id",
         "type": "number",
         "required": 1,
-        "default": ""
+        "default": "",
+        "description": ""
       }
     ],
     "settings": {
@@ -64,190 +84,6 @@
     "return_type": "json"
   },
   {
-    "name": "/v1/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v1/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v2/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v2-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-repository",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/repository",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 1,
-        "default": ""
-      },
-      {
-        "name": "url",
-        "type": "string",
-        "required": 1,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/POST-repository.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v1/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v1/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v2/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v2-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "-repository",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/repository",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": ""
-      },
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": ""
-      },
-      {
-        "name": "url",
-        "type": "string",
-        "required": 0,
-        "default": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/PUT-repository.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v1/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v1/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v2/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v2-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "-repository",
     "description": "",
     "method": "DELETE",
@@ -260,7 +96,8 @@
         "name": "id",
         "type": "number",
         "required": 1,
-        "default": ""
+        "default": "",
+        "description": ""
       }
     ],
     "settings": {
@@ -274,40 +111,43 @@
     "return_type": "json"
   },
   {
-    "name": "/v1/data",
+    "name": "-repository",
     "description": "",
-    "method": "GET",
-    "endpoint": "/v1/data",
+    "method": "PUT",
+    "endpoint": "/repository",
     "data_source": {
       "cluster_id": 1373933076659920561
     },
-    "params": [],
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 1
     },
-    "tag": "",
+    "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v2/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v2-data.sql",
+    "sql_file": "sql/PUT-repository.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -324,13 +164,15 @@
         "name": "name",
         "type": "string",
         "required": 1,
-        "default": ""
+        "default": "",
+        "description": ""
       },
       {
         "name": "url",
         "type": "string",
         "required": 1,
-        "default": ""
+        "default": "",
+        "description": ""
       }
     ],
     "settings": {
@@ -340,44 +182,6 @@
     "tag": "Default",
     "batch_operation": 1,
     "sql_file": "sql/POST-repositorys.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v1/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v1/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v2/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v2-data.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -394,19 +198,22 @@
         "name": "id",
         "type": "number",
         "required": 1,
-        "default": ""
+        "default": "",
+        "description": ""
       },
       {
         "name": "name",
         "type": "string",
         "required": 0,
-        "default": ""
+        "default": "",
+        "description": ""
       },
       {
         "name": "url",
         "type": "string",
         "required": 0,
-        "default": ""
+        "default": "",
+        "description": ""
       }
     ],
     "settings": {
@@ -416,44 +223,6 @@
     "tag": "Default",
     "batch_operation": 1,
     "sql_file": "sql/PUT-repositorys.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v1/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v1/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v2/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v2-data.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -470,7 +239,8 @@
         "name": "id",
         "type": "number",
         "required": 1,
-        "default": ""
+        "default": "",
+        "description": ""
       }
     ],
     "settings": {
@@ -480,6 +250,40 @@
     "tag": "Default",
     "batch_operation": 1,
     "sql_file": "sql/DELETE-repositorys.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-repository",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/repository",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-repository.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
