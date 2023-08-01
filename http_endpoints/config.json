@@ -1,62 +1,5 @@
 [
   {
-    "name": "/test",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/test",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-test.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v1/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v1/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v1-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/v2/data",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/v2/data",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 20
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-v2-data.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "-repository",
     "description": "1",
     "method": "GET",
@@ -86,18 +29,25 @@
   {
     "name": "-repository",
     "description": "",
-    "method": "DELETE",
+    "method": "POST",
     "endpoint": "/repository",
     "data_source": {
       "cluster_id": 1373933076659920561
     },
     "params": [
       {
-        "name": "id",
-        "type": "number",
+        "name": "name",
+        "type": "string",
         "required": 1,
         "default": "",
-        "description": "the delete id"
+        "description": "name"
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "the url"
       }
     ],
     "settings": {
@@ -106,7 +56,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/DELETE-repository.sql",
+    "sql_file": "sql/POST-repository.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -148,6 +98,33 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/PUT-repository.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "-repository",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/repository",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": "the delete id"
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-repository.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -254,36 +231,59 @@
     "return_type": "json"
   },
   {
-    "name": "-repository",
+    "name": "/test",
     "description": "",
-    "method": "POST",
-    "endpoint": "/repository",
+    "method": "GET",
+    "endpoint": "/test",
     "data_source": {
       "cluster_id": 1373933076659920561
     },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "name"
-      },
-      {
-        "name": "url",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "the url"
-      }
-    ],
+    "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 1
+      "row_limit": 50
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-repository.sql",
+    "sql_file": "sql/GET-test.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/v2/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v2/data",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 20
+    },
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-v2-data.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/v1/data",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/v1/data",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-v1-data.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
