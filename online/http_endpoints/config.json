@@ -2,6 +2,25 @@
   {
     "name": "github_events",
     "description": "",
+    "method": "DELETE",
+    "endpoint": "/github_events",
+    "data_source": {
+      "cluster_id": 1379661944633864069
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-github_events.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "github_events",
+    "description": "",
     "method": "GET",
     "endpoint": "/github_events",
     "data_source": {
@@ -489,25 +508,6 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/PUT-github_events.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "github_events",
-    "description": "",
-    "method": "DELETE",
-    "endpoint": "/github_events",
-    "data_source": {
-      "cluster_id": 1379661944633864069
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 1
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/DELETE-github_events.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
