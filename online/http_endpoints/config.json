@@ -266,7 +266,7 @@
     "params": [
       {
         "name": "id",
-        "type": "number",
+        "type": "integer",
         "required": 0,
         "default": "",
         "description": ""
