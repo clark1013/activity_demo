@@ -61,8 +61,8 @@
     "settings": {
       "timeout": 30000,
       "row_limit": 50,
-      "cache_enabled": false,
-      "cache_ttl": 0
+      "cache_enabled": true,
+      "cache_ttl": 30
     },
     "tag": "Default",
     "batch_operation": 0,
