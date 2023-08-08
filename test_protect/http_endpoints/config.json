@@ -1,0 +1,233 @@
+[
+  {
+    "name": "repository",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/repository",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-repository.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "repository",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/repository",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-repository.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "repository",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/repository",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-repository.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "repository",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/repository",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-repository.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "repository_batch",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/repository_batch",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-repository_batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "repository_batch",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/repository_batch",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-repository_batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "repository_batch",
+    "description": "abc",
+    "method": "DELETE",
+    "endpoint": "/repository_batch",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/DELETE-repository_batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
