@@ -1,5 +1,27 @@
 [
   {
+    "name": "/ffff1",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/ffff1",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 60,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-ffff1.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/abc",
     "description": "",
     "method": "GET",
@@ -33,8 +55,8 @@
     "settings": {
       "timeout": 5000,
       "row_limit": 50,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
       "enable_pagination": 0
     },
     "tag": "Default",
