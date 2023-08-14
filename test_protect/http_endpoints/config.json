@@ -1,5 +1,79 @@
 [
   {
+    "name": "repository_batch",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/repository_batch",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-repository_batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "repository_batch",
+    "description": "abc",
+    "method": "DELETE",
+    "endpoint": "/repository_batch",
+    "data_source": {
+      "cluster_id": 1373933076659920561
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/DELETE-repository_batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "repository",
     "description": "",
     "method": "GET",
@@ -57,7 +131,7 @@
       "timeout": 5000,
       "row_limit": 1,
       "cache_enabled": 0,
-      "cache_ttl": 63,
+      "cache_ttl": 0,
       "enable_pagination": 0
     },
     "tag": "Default",
@@ -174,80 +248,6 @@
     "tag": "Default",
     "batch_operation": 1,
     "sql_file": "sql/POST-repository_batch.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "repository_batch",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/repository_batch",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "url",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 1,
-    "sql_file": "sql/PUT-repository_batch.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "repository_batch",
-    "description": "abc",
-    "method": "DELETE",
-    "endpoint": "/repository_batch",
-    "data_source": {
-      "cluster_id": 1373933076659920561
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 1,
-    "sql_file": "sql/DELETE-repository_batch.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
