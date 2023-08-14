@@ -1,5 +1,115 @@
 [
   {
+    "name": "/test10",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test10",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test10.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/test9",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test9",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test9.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/test8",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test8",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test8.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/test7",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test7",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test7.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/test6",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test6",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test6.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "companies",
     "description": "",
     "method": "GET",
