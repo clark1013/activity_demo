@@ -1,1 +1,1 @@
-select * from sp500insight.stock_price_history;
+select * from sp500insight.stock_price_history where volume != ${id};
