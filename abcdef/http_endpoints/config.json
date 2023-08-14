@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "name": "/test",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
