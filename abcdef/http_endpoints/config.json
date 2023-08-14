@@ -1,5 +1,42 @@
 [
   {
+    "name": "/test0",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test0",
+    "data_source": {
+      "cluster_id": 10134834013975055054
+    },
+    "params": [
+      {
+        "name": "short_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "long_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test0.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/test10",
     "description": "",
     "method": "GET",
