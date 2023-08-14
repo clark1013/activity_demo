@@ -2,7 +2,7 @@
   {
     "name": "companies",
     "description": "",
-    "method": "POST",
+    "method": "GET",
     "endpoint": "/companies",
     "data_source": {
       "cluster_id": 10134834013975055054
@@ -11,7 +11,7 @@
     "settings": {
       "timeout": 5000,
       "row_limit": 50,
-      "cache_enabled": 1,
+      "cache_enabled": 0,
       "cache_ttl": 30,
       "enable_pagination": 0
     },
