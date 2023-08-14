@@ -24,7 +24,7 @@
   {
     "name": "/post",
     "description": "",
-    "method": "PUT",
+    "method": "GET",
     "endpoint": "/post",
     "data_source": {
       "cluster_id": 10134834013975055054
@@ -39,7 +39,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/PUT-post.sql",
+    "sql_file": "sql/GET-post.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
