@@ -11,7 +11,7 @@
     "settings": {
       "timeout": 5000,
       "row_limit": 50,
-      "cache_enabled": 0,
+      "cache_enabled": 2,
       "cache_ttl": 0
     },
     "tag": "Default",
