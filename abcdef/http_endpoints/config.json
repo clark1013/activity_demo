@@ -20,7 +20,7 @@
       "timeout": 30000,
       "row_limit": 2000,
       "cache_enabled": 1,
-      "cache_ttl": 100,
+      "cache_ttl": 600,
       "enable_pagination": 0
     },
     "tag": "Default",
