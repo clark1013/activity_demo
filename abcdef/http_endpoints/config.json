@@ -2,7 +2,7 @@
   {
     "name": "companies",
     "description": "",
-    "method": "GET",
+    "method": "POST",
     "endpoint": "/companies",
     "data_source": {
       "cluster_id": 10134834013975055054
