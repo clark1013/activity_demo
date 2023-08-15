@@ -24,7 +24,7 @@
   {
     "name": "/p",
     "description": "",
-    "method": "GET",
+    "method": "POST",
     "endpoint": "/p",
     "data_source": {
       "cluster_id": 1379661944646195308
@@ -33,7 +33,7 @@
     "settings": {
       "timeout": 5000,
       "row_limit": 50,
-      "cache_enabled": 0,
+      "cache_enabled": 1,
       "cache_ttl": 0,
       "enable_pagination": 0
     },
