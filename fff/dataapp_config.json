@@ -2,6 +2,6 @@
   "app_id": "dataapp-GmKUFtyW",
   "app_name": "not associated with github",
   "app_type": "dataapp",
-  "description": "\u003cscript\u003ealert(123)\u003c/script\u003e",
+  "description": "\u003cscript\u003ealert(123);\u003c/script\u003e",
   "app_version": "1.0.1"
 }
