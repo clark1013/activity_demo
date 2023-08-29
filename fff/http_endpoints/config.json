@@ -97,7 +97,7 @@
   },
   {
     "name": "repository",
-    "description": "",
+    "description": "\u003cscript\u003e\u003c/script\u003e",
     "method": "DELETE",
     "endpoint": "/repository",
     "data_source": {
