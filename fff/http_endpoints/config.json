@@ -1,38 +1,53 @@
 [
   {
+    "name": "/atst",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/atst",
+    "data_source": {
+      "cluster_id": 1379661944646194202
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-atst.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "repository",
     "description": "",
-    "method": "POST",
+    "method": "GET",
     "endpoint": "/repository",
     "data_source": {
       "cluster_id": 1379661944646194202
     },
     "params": [
       {
-        "name": "name",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "url",
-        "type": "string",
+        "name": "id",
+        "type": "number",
         "required": 1,
         "default": "",
         "description": ""
       }
     ],
     "settings": {
-      "timeout": 5000,
-      "row_limit": 1,
+      "timeout": 30,
+      "row_limit": 50,
       "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 0
     },
     "tag": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
     "batch_operation": 0,
-    "sql_file": "sql/POST-repository.sql",
+    "sql_file": "sql/GET-repository.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -111,6 +126,43 @@
     "return_type": "json"
   },
   {
+    "name": "repository",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/repository",
+    "data_source": {
+      "cluster_id": 1379661944646194202
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "url",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-repository.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "repository_copy",
     "description": "",
     "method": "GET",
@@ -137,58 +189,6 @@
     "tag": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
     "batch_operation": 0,
     "sql_file": "sql/GET-repository_dump_PGQQxc.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "repository",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/repository",
-    "data_source": {
-      "cluster_id": 1379661944646194202
-    },
-    "params": [
-      {
-        "name": "id",
-        "type": "number",
-        "required": 1,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 30,
-      "row_limit": 50,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-repository.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/atst",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/atst",
-    "data_source": {
-      "cluster_id": 1379661944646194202
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-atst.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
