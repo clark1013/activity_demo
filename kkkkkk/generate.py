@@ -50,7 +50,7 @@ endpoint = {
 }
 
 result = []
-for i in range(1000):
+for i in range(500):
     t = copy.deepcopy(endpoint)
     t["name"] = f"/test{i}"
     t["endpoint"] = f"/test{i}"
