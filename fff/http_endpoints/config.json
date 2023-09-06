@@ -1,23 +1,23 @@
 [
   {
-    "name": "github_events",
+    "name": "ttt_batch",
     "description": "",
-    "method": "GET",
-    "endpoint": "/github_events",
+    "method": "DELETE",
+    "endpoint": "/ttt_batch",
     "data_source": {
       "cluster_id": 1379661944646194202
     },
     "params": [],
     "settings": {
       "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 1,
-      "cache_ttl": 100,
-      "enable_pagination": 1
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
     "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-github_events.sql",
+    "batch_operation": 1,
+    "sql_file": "sql/DELETE-ttt_batch.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -556,6 +556,28 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/DELETE-github_events.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "github_events",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/github_events",
+    "data_source": {
+      "cluster_id": 1379661944646194202
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-github_events.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
