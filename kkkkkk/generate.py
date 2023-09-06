@@ -1,31 +1,53 @@
 import copy
 import json
 
-endpoint =  {
-    "name": "/test",
+# endpoint =  {
+#     "name": "/test",
+#     "description": "",
+#     "method": "GET",
+#     "endpoint": "/testf",
+#     "data_source": {
+#       "cluster_id": 3778994
+#     },
+#     "params": [
+#       {
+#         "name": "id",
+#         "type": "integer",
+#         "required": 1,
+#         "default": "",
+#         "description": ""
+#       }
+#     ],
+#     "settings": {
+#       "timeout": 5000,
+#       "row_limit": 50
+#     },
+#     "sql_file": "sql/GET-testf.sql",
+#     "type": "sql_endpoint",
+#     "return_type": "json"
+#   }
+
+endpoint = {
     "description": "",
     "method": "GET",
-    "endpoint": "/testf",
+    "endpoint": "/test",
     "data_source": {
-      "cluster_id": 3778994
+      "cluster_id": 3839213
     },
-    "params": [
-      {
-        "name": "id",
-        "type": "integer",
-        "required": 1,
-        "default": "",
-        "description": ""
-      }
-    ],
+    "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
-    "sql_file": "sql/GET-testf.sql",
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test.sql",
     "type": "sql_endpoint",
     "return_type": "json"
-  }
+}
 
 result = []
 for i in range(1000):
