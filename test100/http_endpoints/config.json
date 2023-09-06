@@ -1,24 +1,2202 @@
 [
-  {
-    "name": "/test",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/test",
-    "data_source": {
-      "cluster_id": 10190377397369446913
-    },
-    "params": [],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-test.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  }
+ {
+  "name": "/test0",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test0",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test1",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test1",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test2",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test2",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test3",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test3",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test4",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test4",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test5",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test5",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test6",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test6",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test7",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test7",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test8",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test8",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test9",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test9",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test10",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test10",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test11",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test11",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test12",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test12",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test13",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test13",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test14",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test14",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test15",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test15",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test16",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test16",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test17",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test17",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test18",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test18",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test19",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test19",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test20",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test20",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test21",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test21",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test22",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test22",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test23",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test23",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test24",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test24",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test25",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test25",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test26",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test26",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test27",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test27",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test28",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test28",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test29",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test29",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test30",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test30",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test31",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test31",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test32",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test32",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test33",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test33",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test34",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test34",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test35",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test35",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test36",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test36",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test37",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test37",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test38",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test38",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test39",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test39",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test40",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test40",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test41",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test41",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test42",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test42",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test43",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test43",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test44",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test44",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test45",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test45",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test46",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test46",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test47",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test47",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test48",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test48",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test49",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test49",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test50",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test50",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test51",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test51",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test52",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test52",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test53",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test53",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test54",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test54",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test55",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test55",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test56",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test56",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test57",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test57",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test58",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test58",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test59",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test59",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test60",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test60",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test61",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test61",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test62",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test62",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test63",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test63",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test64",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test64",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test65",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test65",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test66",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test66",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test67",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test67",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test68",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test68",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test69",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test69",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test70",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test70",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test71",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test71",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test72",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test72",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test73",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test73",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test74",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test74",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test75",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test75",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test76",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test76",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test77",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test77",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test78",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test78",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test79",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test79",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test80",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test80",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test81",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test81",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test82",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test82",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test83",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test83",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test84",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test84",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test85",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test85",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test86",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test86",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test87",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test87",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test88",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test88",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test89",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test89",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test90",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test90",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test91",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test91",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test92",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test92",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test93",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test93",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test94",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test94",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test95",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test95",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test96",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test96",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test97",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test97",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test98",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test98",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ },
+ {
+  "name": "/test99",
+  "description": "",
+  "method": "GET",
+  "endpoint": "/test99",
+  "data_source": {
+   "cluster_id": 10190377397369446913
+  },
+  "params": [],
+  "settings": {
+   "timeout": 30000,
+   "row_limit": 1000,
+   "cache_enabled": 0,
+   "cache_ttl": 0,
+   "enable_pagination": 0
+  },
+  "tag": "Default",
+  "batch_operation": 0,
+  "sql_file": "sql/GET-test.sql",
+  "type": "sql_endpoint",
+  "return_type": "json"
+ }
 ]
