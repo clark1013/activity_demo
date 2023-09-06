@@ -2,7 +2,7 @@
   {
     "name": "sold_car_orders_batch",
     "description": "",
-    "method": "PUT",
+    "method": "POST",
     "endpoint": "/sold_car_orders_batch",
     "data_source": {
       "cluster_id": 1379661944646194202
@@ -74,7 +74,7 @@
     },
     "tag": "Default",
     "batch_operation": 1,
-    "sql_file": "sql/PUT-sold_car_orders_batch.sql",
+    "sql_file": "sql/POST-sold_car_orders_batch.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -1285,6 +1285,85 @@
     "tag": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
     "batch_operation": 0,
     "sql_file": "sql/GET-repository_dump_PGQQxc.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "sold_car_orders_batch",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/sold_car_orders_batch",
+    "data_source": {
+      "cluster_id": 1379661944646194202
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-sold_car_orders_batch.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },

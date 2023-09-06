@@ -1,0 +1,2 @@
+USE sample_data;
+INSERT INTO `sold_car_orders` (`name`,`year`,`selling_price`,`km_driven`,`fuel`,`seller_type`,`transmission`,`owner`) VALUES(${name},${year},${selling_price},${km_driven},${fuel},${seller_type},${transmission},${owner});
