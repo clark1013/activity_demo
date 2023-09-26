@@ -1,23 +1,23 @@
 [
   {
-    "name": "/ttt",
+    "name": "/abc",
     "description": "",
-    "method": "POST",
-    "endpoint": "/tttf",
+    "method": "GET",
+    "endpoint": "/abc",
     "data_source": {
       "cluster_id": 3778994
     },
     "params": [],
     "settings": {
-      "timeout": 5000,
-      "row_limit": 100,
+      "timeout": 30000,
+      "row_limit": 1000,
       "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 0
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-tttf.sql",
+    "sql_file": "sql/GET-abc.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -40,6 +40,28 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/GET-somethings.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/ttt",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/tttf",
+    "data_source": {
+      "cluster_id": 3778994
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 100,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-tttf.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
