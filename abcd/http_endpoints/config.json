@@ -3,7 +3,7 @@
     "name": "/ttt",
     "description": "",
     "method": "POST",
-    "endpoint": "/ttt2",
+    "endpoint": "/tttf",
     "data_source": {
       "cluster_id": 3778994
     },
@@ -17,7 +17,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-ttt2.sql",
+    "sql_file": "sql/POST-tttf.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
