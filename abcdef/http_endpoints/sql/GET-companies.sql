@@ -1,2 +1,2 @@
 USE sp500insight;
-SELECT * FROM `companies`;
+select 1;
